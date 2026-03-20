@@ -392,7 +392,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--hh);display:
 // CONFIG  — only 2 API calls per full refresh
 // ─────────────────────────────────────────────
 const GEMINI_KEY_NAME = 'cp_gemini_key';
-const GEMINI_URL = k => `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${k}`;
+const GEMINI_URL = k => `https://generativelanguage.googleapis.com/v1/models/gemini-2.0-latest:generateContent?key=${k}`;
 
 let KEY = '';
 let CAREER = 'AI/ML Engineer';
